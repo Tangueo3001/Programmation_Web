@@ -1,0 +1,28 @@
+div {
+    margin: 20px;
+    width: 50%;
+    height: 250px;
+    
+    background: red;
+    background: linear-gradient(to bottom left,red, yellow, green, blue, purple );
+}
+
+@font-face titre {
+    font-family: Arial;
+    font-weight: 700;
+}
+
+@keyframes {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 100px;
+    }
+    
+}
+
+h1 {
+     font-family: Arial, sans-serif;
+animation: titre 2s infinite alternate ease;
+}
